@@ -57,8 +57,8 @@
         "sync": 0,
         "volume": 1.0
     },
-    "current_program_scene": "Group: Desktop and Webcam overlay",
-    "current_scene": "Group: Desktop and Webcam overlay",
+    "current_program_scene": "Scene: Chat",
+    "current_scene": "Scene: Chat",
     "current_transition": "Fade",
     "groups": [],
     "modules": {
@@ -111,10 +111,13 @@
     "scaling_off_y": 0.0,
     "scene_order": [
         {
-            "name": "Code and mic"
+            "name": "Scene: BRB"
         },
         {
-            "name": "Be Right Back"
+            "name": "Scene: Coding"
+        },
+        {
+            "name": "Scene: Chat"
         },
         {
             "name": "-----------------"
@@ -124,6 +127,97 @@
         }
     ],
     "sources": [
+        {
+            "balance": 0.5,
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Webcam": [],
+                "libobs.hide_scene_item.Webcam Audio": [],
+                "libobs.show_scene_item.Webcam": [],
+                "libobs.show_scene_item.Webcam Audio": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "Scene: Chat",
+            "prev_ver": 402653187,
+            "private_settings": {},
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "custom_size": false,
+                "id_counter": 7,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 1,
+                        "locked": false,
+                        "name": "Webcam",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.4390624761581421,
+                            "y": 1.4395833015441895
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 2,
+                        "locked": false,
+                        "name": "Webcam Audio",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
         {
             "balance": 0.5,
             "deinterlace_field_order": 0,
@@ -356,7 +450,7 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Be Right Back",
+            "name": "Scene: BRB",
             "prev_ver": 402653187,
             "private_settings": {},
             "push-to-mute": false,
@@ -460,16 +554,14 @@
             "flags": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
-                "libobs.hide_scene_item.Left Monitor": [],
-                "libobs.hide_scene_item.Webcam Audio": [],
-                "libobs.show_scene_item.Left Monitor": [],
-                "libobs.show_scene_item.Webcam Audio": []
+                "libobs.hide_scene_item.Group: Desktop and Webcam overlay": [],
+                "libobs.show_scene_item.Group: Desktop and Webcam overlay": []
             },
             "id": "scene",
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Code and mic",
+            "name": "Scene: Coding",
             "prev_ver": 402653187,
             "private_settings": {},
             "push-to-mute": false,
@@ -478,7 +570,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 5,
+                "id_counter": 1,
                 "items": [
                     {
                         "align": 5,
@@ -493,38 +585,9 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "group_item_backup": false,
-                        "id": 4,
+                        "id": 1,
                         "locked": false,
-                        "name": "Left Monitor",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "private_settings": {},
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 5,
-                        "locked": false,
-                        "name": "Webcam Audio",
+                        "name": "Group: Desktop and Webcam overlay",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
