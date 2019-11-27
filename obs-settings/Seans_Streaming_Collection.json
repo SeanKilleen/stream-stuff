@@ -57,8 +57,8 @@
         "sync": 0,
         "volume": 1.0
     },
-    "current_program_scene": "Scene: Chat",
-    "current_scene": "Scene: Chat",
+    "current_program_scene": "Scene: Just Me",
+    "current_scene": "Scene: Just Me",
     "current_transition": "Fade",
     "groups": [],
     "modules": {
@@ -117,7 +117,7 @@
             "name": "Scene: Coding"
         },
         {
-            "name": "Scene: Chat"
+            "name": "Scene: Just Me"
         },
         {
             "name": "-----------------"
@@ -144,7 +144,7 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Scene: Chat",
+            "name": "Scene: Just Me",
             "prev_ver": 402653187,
             "private_settings": {},
             "push-to-mute": false,
@@ -153,7 +153,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "custom_size": false,
-                "id_counter": 7,
+                "id_counter": 8,
                 "items": [
                     {
                         "align": 5,
@@ -172,14 +172,14 @@
                         "locked": false,
                         "name": "Webcam",
                         "pos": {
-                            "x": 0.0,
+                            "x": 247.0,
                             "y": 0.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
                         "scale": {
-                            "x": 1.4390624761581421,
-                            "y": 1.4395833015441895
+                            "x": 2.25,
+                            "y": 2.25
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -478,7 +478,7 @@
                         "locked": false,
                         "name": "BRB Gifs",
                         "pos": {
-                            "x": 0.0,
+                            "x": 329.0,
                             "y": 0.0
                         },
                         "private_settings": {},
